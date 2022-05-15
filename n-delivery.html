@@ -1,0 +1,1143 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Доставка и оплата</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <!-- appstore links-->
+    <!-- seo meta-->
+    <meta name="description" content="Meta description">
+    <meta name="keywords" content="Key, words">
+    <meta name="author" content="Site name">
+    <!-- og meta-->
+    <meta property="og:title" content="Site name">
+    <meta property="og:url" content="">
+    <meta property="og:image" content="">
+    <meta property="og:description" content="Site name">
+    <meta name="twitter:title" content="Site name">
+    <meta name="twitter:description" content="Site name">
+    <meta name="twitter:image:src" content="https://projectname.surge.shimages/og/1_1200х628.jpg">
+    <meta name="twitter:url" content="https://projectname.surge.sh">
+    <!-- remove for production-->
+    <meta name="robots" content="noindex">
+    <link rel="stylesheet" href="css/template_styles.css">
+  </head>
+  <body class="delivery-page">
+        <header class="header">
+          <div class="header__body">
+            <div class="header__container container">
+              <div class="header__logo-wrap"><a class="header__logo">
+                  <svg class="icon icon_logo">
+                    <use xlink:href="images/sprite-svg.svg#logo"></use>
+                  </svg></a>
+                <div class="header__slogan">20 лет на рынке товаров для сада</div>
+              </div>
+              <div class="header__body-content">
+                <div class="header__search"><a class="header__banner"><img class="lazy" data-src="images/header-banner-2.svg" alt=""></a>
+                      <div class="search-block">
+                        <input class="search-block__input" type="text" placeholder="Название или артикул">
+                        <button class="search-block__btn">
+                          <svg class="icon icon_search">
+                            <use xlink:href="images/sprite-svg.svg#search"></use>
+                          </svg>
+                        </button><a class="search-block__close js-search-mob-hide" href="#"> 
+                          <svg class="icon icon_close">
+                            <use xlink:href="images/sprite-svg.svg#close"></use>
+                          </svg></a>
+                      </div>
+                </div>
+                <div class="header__contacts">
+                      <div class="icon-inline header__contacts-item">
+                        <div class="icon-inline__title"> Интернет-магазин:
+                        </div>
+                        <div class="icon-inline__row">
+                          <div class="icon-inline__icon">
+                            <svg class="icon icon_phone">
+                              <use xlink:href="images/sprite-svg.svg#phone"></use>
+                            </svg>
+                          </div>
+                          <div class="icon-inline__wrap">
+                            <div class="icon-inline__phone"> +7 (495) 734-80-88
+                            </div>
+                            <p> Пн–Пт 09:00–18:00
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="icon-inline header__contacts-item d-none_sm">
+                        <div class="icon-inline__title"> Садовый центр:
+                        </div>
+                        <div class="icon-inline__row">
+                          <div class="icon-inline__icon">
+                            <svg class="icon icon_phone">
+                              <use xlink:href="images/sprite-svg.svg#phone"></use>
+                            </svg>
+                          </div>
+                          <div class="icon-inline__wrap">
+                            <div class="icon-inline__phone"> <a href="#" class="link-dashed">Адреса магазинов</a>
+                            </div>
+                            <p> 09:00–21:00
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="icon-inline header__contacts-item">
+                        <div class="icon-inline__title"> Оптовые продажи:
+                        </div>
+                        <div class="icon-inline__row">
+                          <div class="icon-inline__icon">
+                            <svg class="icon icon_phone">
+                              <use xlink:href="images/sprite-svg.svg#phone"></use>
+                            </svg>
+                          </div>
+                          <div class="icon-inline__wrap">
+                            <div class="icon-inline__phone"> +7 (495) 734-80-88
+                            </div>
+                            <p> bestgardenopt.ru
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="header__bottom"> 
+            <div class="header__container container"> 
+              <div class="header__search-mob js-search-mob">
+                    <div class="search-block search-block--mob">
+                      <input class="search-block__input" type="text" placeholder="Название или артикул">
+                      <button class="search-block__btn">
+                        <svg class="icon icon_search">
+                          <use xlink:href="images/sprite-svg.svg#search"></use>
+                        </svg>
+                      </button><a class="search-block__close js-search-mob-hide" href="#"> 
+                        <svg class="icon icon_close">
+                          <use xlink:href="images/sprite-svg.svg#close"></use>
+                        </svg></a>
+                    </div>
+              </div>
+              <div class="header__menu">
+                    <div class="menu-block">
+                      <div class="menu-block__item parent"><a class="js-menu-toggle" href="#">
+                          <svg class="icon icon_menu-burger">
+                            <use xlink:href="images/sprite-svg.svg#menu-burger"></use>
+                          </svg><span class="d-none_xs">Каталоги</span></a>
+                        <div class="menu-block__overflow js-menu-overflow"></div>
+                        <div class="menu-block__sub js-mobile-menu">
+                          <div class="menu-block__sub-item"><a href="#">
+                              <picture>
+                                <source class="lazy" data-srcset="images/catalog-menu-img-1.webp" type="image/webp"/><img class="lazy" data-src="images/catalog-menu-img-1.png" alt=""/>
+                              </picture><span>Все товары</span></a></div>
+                          <div class="menu-block__sub-item parent js-menu-parent-2"><a href="#">
+                              <picture>
+                                <source class="lazy" data-srcset="images/catalog-menu-img-2.webp" type="image/webp"/><img class="lazy" data-src="images/catalog-menu-img-2.png" alt=""/>
+                              </picture><span>Саженцы</span></a>
+                            <div class="menu-block__sub2">
+                              <div class="menu-block__sub-item"><a href="#">
+                                  <picture>
+                                    <source class="lazy" data-srcset="images/catalog-menu-img-13.webp" type="image/webp"/><img class="lazy" data-src="images/catalog-menu-img-13.png" alt=""/>
+                                  </picture><span>Гортензии</span></a></div>
+                              <div class="menu-block__sub-item"><a href="#">
+                                  <picture>
+                                    <source class="lazy" data-srcset="images/catalog-menu-img-14.webp" type="image/webp"/><img class="lazy" data-src="images/catalog-menu-img-14.png" alt=""/>
+                                  </picture><span>Клематисы</span></a></div>
+                              <div class="menu-block__sub-item"><a href="#">
+                                  <picture>
+                                    <source class="lazy" data-srcset="images/catalog-menu-img-15.webp" type="image/webp"/><img class="lazy" data-src="images/catalog-menu-img-15.png" alt=""/>
+                                  </picture><span>Саженцы декоративные</span></a></div>
+                              <div class="menu-block__sub-item"><a href="#">
+                                  <picture>
+                                    <source class="lazy" data-srcset="images/catalog-menu-img-16.webp" type="image/webp"/><img class="lazy" data-src="images/catalog-menu-img-16.png" alt=""/>
+                                  </picture><span>Саженцы хвойные</span></a></div>
+                              <div class="menu-block__sub-item"><a href="#">
+                                  <picture>
+                                    <source class="lazy" data-srcset="images/catalog-menu-img-17.webp" type="image/webp"/><img class="lazy" data-src="images/catalog-menu-img-17.png" alt=""/>
+                                  </picture><span>Саженцы ягодные</span></a></div>
+                            </div>
+                          </div>
+                          <div class="menu-block__sub-item active"><a href="#">
+                              <picture>
+                                <source class="lazy" data-srcset="images/catalog-menu-img-3.webp" type="image/webp"/><img class="lazy" data-src="images/catalog-menu-img-3.png" alt=""/>
+                              </picture><span>Саженцы ЗКС</span></a></div>
+                          <div class="menu-block__sub-item"> <a href="#">
+                              <picture>
+                                <source class="lazy" data-srcset="images/catalog-menu-img-4.webp" type="image/webp"/><img class="lazy" data-src="images/catalog-menu-img-4.png" alt=""/>
+                              </picture><span>Луковичные <br>и многолетние</span></a></div>
+                          <div class="menu-block__sub-item"> <a href="#">
+                              <picture>
+                                <source class="lazy" data-srcset="images/catalog-menu-img-5.webp" type="image/webp"/><img class="lazy" data-src="images/catalog-menu-img-5.png" alt=""/>
+                              </picture><span>Картофель</span></a></div>
+                          <div class="menu-block__sub-item"> <a href="#">
+                              <picture>
+                                <source class="lazy" data-srcset="images/catalog-menu-img-6.webp" type="image/webp"/><img class="lazy" data-src="images/catalog-menu-img-6.png" alt=""/>
+                              </picture><span>Комнатные<br> растения</span></a></div>
+                          <div class="menu-block__sub-item"> <a href="#">
+                              <picture>
+                                <source class="lazy" data-srcset="images/catalog-menu-img-7.webp" type="image/webp"/><img class="lazy" data-src="images/catalog-menu-img-7.png" alt=""/>
+                              </picture><span>Лук-севок</span></a></div>
+                          <div class="menu-block__sub-item"> <a href="#">
+                              <picture>
+                                <source class="lazy" data-srcset="images/catalog-menu-img-8.webp" type="image/webp"/><img class="lazy" data-src="images/catalog-menu-img-8.png" alt=""/>
+                              </picture><span>Рассада</span></a></div>
+                          <div class="menu-block__sub-item"> <a href="#">
+                              <picture>
+                                <source class="lazy" data-srcset="images/catalog-menu-img-9.webp" type="image/webp"/><img class="lazy" data-src="images/catalog-menu-img-9.png" alt=""/>
+                              </picture><span>Розы</span></a></div>
+                          <div class="menu-block__sub-item"> <a href="#">
+                              <picture>
+                                <source class="lazy" data-srcset="images/catalog-menu-img-10.webp" type="image/webp"/><img class="lazy" data-src="images/catalog-menu-img-10.png" alt=""/>
+                              </picture><span>Для дома и сада</span></a></div>
+                          <div class="menu-block__sub-item"> <a href="#">
+                              <picture>
+                                <source class="lazy" data-srcset="images/catalog-menu-img-11.webp" type="image/webp"/><img class="lazy" data-src="images/catalog-menu-img-11.png" alt=""/>
+                              </picture><span>Сопутствующие<br> товары</span></a></div>
+                          <div class="menu-block__sub-item"> <a href="#">
+                              <picture>
+                                <source class="lazy" data-srcset="images/catalog-menu-img-12.webp" type="image/webp"/><img class="lazy" data-src="images/catalog-menu-img-12.png" alt=""/>
+                              </picture><span>Зоотовары</span></a></div>
+                          <div class="menu-block__item d-none d-block_sm"><a href="#">Предварительный заказ</a></div>
+                          <div class="menu-block__item d-none d-block_sm"><a href="#">Акции</a></div>
+                          <div class="menu-block__item d-none d-block_sm"><a href="#">Доставка и оплата</a></div>
+                          <div class="menu-block__item d-none d-block_sm"><a href="#">О нас</a></div>
+                          <div class="menu-block__item d-none d-block_sm"><a href="#">Новости</a></div>
+                          <div class="menu-block__item d-none d-block_sm"><a href="#">Контакты</a></div>
+                          <div class="menu-block__item d-none d-block_sm"><a href="#">Задать вопрос</a></div>
+                        </div>
+                      </div>
+                      <div class="menu-block__item d-none_xs"><a href="#">Предварительный заказ</a></div>
+                      <div class="menu-block__item d-none_md"><a href="#">Акции</a></div>
+                      <div class="menu-block__item d-none_md"><a href="#">Доставка и оплата</a></div>
+                      <div class="menu-block__item d-none_md"><a href="#">О нас</a></div>
+                      <div class="menu-block__item d-none_md"><a href="#">Новости</a></div>
+                      <div class="menu-block__item d-none_md"><a href="#">Контакты</a></div>
+                      <div class="menu-block__item d-none_md"><a class="js-popup-show" href="#popup-contact-form">Задать вопрос</a></div>
+                      <div class="menu-block__item d-none d-block_md d-none_xs"><span>Покупателю</span>
+                        <div class="menu-block__sub-min"> 
+                          <div class="menu-block__item"><a href="#">Акции</a></div>
+                          <div class="menu-block__item"><a href="#">Доставка и оплата</a></div>
+                          <div class="menu-block__item"><a href="#">О нас</a></div>
+                          <div class="menu-block__item"><a href="#">Новости</a></div>
+                          <div class="menu-block__item"><a href="#">Контакты</a></div>
+                          <div class="menu-block__item"><a class="js-popup-show" href="#popup-contact-form">Задать вопрос</a></div>
+                        </div>
+                      </div>
+                    </div>
+              </div>
+              <div class="header__buttons">
+                    <div class="icon-inline icon-inline--default icon-inline--white header__buttons-item d-none d-block_sm"><a class="icon-inline__link js-search-mob-show" href="#"></a>
+                      <div class="icon-inline__icon">
+                        <svg class="icon icon_search">
+                          <use xlink:href="images/sprite-svg.svg#search"></use>
+                        </svg>
+                      </div>
+                    </div>
+                    <div class="icon-inline icon-inline--default icon-inline--white header__buttons-item" data-title="Cтатус заказа"><a class="icon-inline__link" href="#"></a>
+                      <div class="icon-inline__icon">
+                        <div class="icon-inline__counter">2</div>
+                        <svg class="icon icon_question">
+                          <use xlink:href="images/sprite-svg.svg#question"></use>
+                        </svg>
+                      </div>
+                    </div>
+                    <div class="icon-inline icon-inline--default icon-inline--white header__buttons-item" data-title="Избранное"><a class="icon-inline__link" href="#"></a>
+                      <div class="icon-inline__icon">
+                        <div class="icon-inline__counter">2</div>
+                        <svg class="icon icon_star">
+                          <use xlink:href="images/sprite-svg.svg#star"></use>
+                        </svg>
+                      </div>
+                    </div>
+                    <div class="icon-inline icon-inline--default icon-inline--login icon-inline--white header__buttons-item"><a class="icon-inline__link js-popup-show" href="#popup-login"></a>
+                      <div class="icon-inline__icon">
+                        <div class="icon-inline__counter">2</div>
+                        <svg class="icon icon_user">
+                          <use xlink:href="images/sprite-svg.svg#user"></use>
+                        </svg>
+                      </div>
+                      <div class="icon-inline__wrap">
+                        <div class="icon-inline__title">Войти
+                        </div>
+                        <div class="icon-inline__text">Личный кабинет
+                        </div>
+                      </div>
+                    </div>
+                    <div class="icon-inline icon-inline--default icon-inline--cart js-cart-toggle icon-inline--white header__buttons-item">
+                      <div class="icon-inline__icon">
+                        <div class="icon-inline__counter">2</div>
+                        <svg class="icon icon_cart">
+                          <use xlink:href="images/sprite-svg.svg#cart"></use>
+                        </svg>
+                      </div>
+                      <div class="icon-inline__wrap">
+                        <div class="icon-inline__title">Корзина
+                        </div>
+                        <div class="icon-inline__text">4 600.00 ₽
+                        </div>
+                      </div>
+                      <div class="icon-inline__hidden">
+                        <div class="icon-inline__body-costs">
+                          <div class="icon-inline__item">
+                            <div class="icon-inline__item-title">Сосенка водяная<br> (хвостник обыкновенный)</div>
+                            <div class="icon-inline__item-count">
+                                  <div class="count-block count-block--small"><a class="count-block__minus js-count-minus" href="#">-</a>
+                                    <input class="count-block__input" type="text" value="1"><a class="count-block__plus js-count-plus" href="#">+</a>
+                                  </div>
+                            </div>
+                            <div class="icon-inline__item-price">
+                              <div class="icon-inline__cost">2 270 ₽</div>
+                            </div>
+                            <div class="icon-inline__item-del"><a class="icon-inline__btn" href="#">
+                                <svg class="icon icon_delete-2">
+                                  <use xlink:href="images/sprite-svg.svg#delete-2"></use>
+                                </svg></a></div>
+                          </div>
+                          <div class="icon-inline__item">
+                            <div class="icon-inline__item-title">Калла Манго</div>
+                            <div class="icon-inline__item-count">
+                                  <div class="count-block count-block--small"><a class="count-block__minus js-count-minus" href="#">-</a>
+                                    <input class="count-block__input" type="text" value="1"><a class="count-block__plus js-count-plus" href="#">+</a>
+                                  </div>
+                            </div>
+                            <div class="icon-inline__item-price">
+                              <div class="icon-inline__cost">2 230 ₽</div>
+                            </div>
+                            <div class="icon-inline__item-del"><a class="icon-inline__btn" href="#">
+                                <svg class="icon icon_delete-2">
+                                  <use xlink:href="images/sprite-svg.svg#delete-2"></use>
+                                </svg></a></div>
+                          </div>
+                          <div class="icon-inline__item">
+                            <div class="icon-inline__item-title">Вахта трехлистная<br> (трилистник водяной)</div>
+                            <div class="icon-inline__item-count">
+                                  <div class="count-block count-block--small"><a class="count-block__minus js-count-minus" href="#">-</a>
+                                    <input class="count-block__input" type="text" value="1"><a class="count-block__plus js-count-plus" href="#">+</a>
+                                  </div>
+                            </div>
+                            <div class="icon-inline__item-price">
+                              <div class="icon-inline__cost-none">170 ₽</div>
+                            </div>
+                            <div class="icon-inline__item-del"></div>
+                          </div>
+                        </div>
+                        <div class="icon-inline__total">
+                          <div class="icon-inline__total-text">Итого:</div>
+                          <div class="icon-inline__total-cost"><strong>4 600.00 ₽</strong></div>
+                        </div>
+                        <div class="icon-inline__buttons"><a class="btn btn--sm btn--yellow" href="#">Купить в 1 клик</a><a class="btn btn--sm btn--green" href="#">Оформить заказ</a></div>
+                      </div>
+                    </div>
+              </div>
+            </div>
+          </div>
+        </header>
+        <div class="main-section main-section--delivery">
+          <div class="main-section__container container">
+                <div class="breadcrumbs main-section__bread">
+                  <ul class="breadcrumbs__ul" itemscope="" itemtype="http://schema.org/BreadcrumbList">
+                    <li class="breadcrumbs__li" itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem"><a href="/" itemprop="item"><span itemprop="name">Главная</span>
+                        <meta itemprop="position" content="0"></a></li>
+                    <li class="breadcrumbs__li active" itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem"><a href="#" itemprop="item"><span itemprop="name">О нас</span>
+                        <meta itemprop="position" content="1"></a></li>
+                  </ul>
+                </div>
+            <h1 class="main-section__title title-h3">информация о доставке и оплате</h1>
+            <div class="main-section__tab-nav tabs__nav">
+              <div class="tabs__nav-item is-active"><a class="js-tab-nav" href="#tab-1">Доставка</a></div>
+              <div class="tabs__nav-item"><a class="js-tab-nav" href="#tab-2">Оплата</a></div>
+            </div>
+            <div class="main-section__tab tabs__body is-active" id="tab-1">
+              <div class="banner-block banner-block--delivery main-section__banner"><img class="banner-block__img" src="images/banner-delivery-img.svg">
+                <div class="banner-block__wrap">
+                  <div class="banner-block__title">бесплатная доставка при заказе от 100 000 рублей!</div>
+                  <div class="banner-block__text">по Москве, ближнему Подмосковью и до ТК</div>
+                </div>
+              </div>
+                  <div class="accardion-block accardion-block--delivery1 accardion-block--white">
+                    <div class="accardion-block__head js-accardion-toggle">
+                      <div class="accardion-block__title">Доставка почтой по России
+                      </div>
+                      <div class="accardion-block__arrow">
+                        <svg class="icon icon_arrow-right-2">
+                          <use xlink:href="images/sprite-svg.svg#arrow-right-2"></use>
+                        </svg>
+                      </div>
+                    </div>
+                    <div class="accardion-block__body js-accardion-body">
+                      <div class="accardion-block__about">
+                        <div class="accardion-block__about-img"><img src="images/post-rus.png" alt=""></div>
+                        <div class="accardion-block__about-info">
+                          <div class="accardion-block__about-text"><strong>Минимальная сумма заказа отсутствует.</strong><br><br><strong>Бесплатно</strong> - доставка почтой России и сборка при заказе на сумму от <strong>12 000 руб.</strong><br> (с учетом скидок и бонусов) и 100 % предоплате по каталогам Осень, Луковичные и многолетники,<br> Розы, Саженцы, Саженцы ЗКС</div>
+                        </div>
+                      </div>
+                      <div class="accardion-block__table">
+                         <div class="table-responsive"><table class="table"><tbody><tr><th>Каталог</th><th>Сумма доставки</th><th>Сборка заказа</th><th>Способ доставки</th></tr><tr><td><strong>Товары в наличии</strong></td><td><a href="#">по тарифам почты России</a></td><td>100,00 руб.</td><td>Доставка почтой России</td></tr><tr><td><strong>Курьером по Москве и области<br> Розы, Саженцы, Луковичные<br> и многолетники., Саженцы ЗКС</strong></td><td><a href="#">по тарифам почты России</a></td><td>100,00 руб.</td><td>Доставка почтой России</td></tr></tbody></table></div>	</div>
+                      <div class="accardion-block__item"> 
+                        <div class="accardion-block__icon"> 
+                          <svg class="icon icon_delivery">
+                            <use xlink:href="images/sprite-svg.svg#delivery"></use>
+                          </svg>
+                        </div>
+                        <div class="accardion-block__item-info">
+                          <div class="accardion-block__item-text"> Заказанные вами товары будут упакованы в посылку и доставлены в ваше почтовое отделение.<br><br> После отправки посылки, на Ваш электронный адрес или телефон будет выслан идентификационный номер и дата почтового отправления. Все желающие могут найти идентификационный номер своей посылки и отследить её передвижение на <strong><a href="#">сайте почты России.</a></strong></div>
+                        </div>
+                      </div>
+                      <div class="accardion-block__item">
+                        <div class="accardion-block__icon"> 
+                          <svg class="icon icon_coins">
+                            <use xlink:href="images/sprite-svg.svg#coins"></use>
+                          </svg>
+                        </div>
+                        <div class="accardion-block__item-info">
+                          <div class="accardion-block__item-text">Доставка по тарифам Почты России.<br> С тарифами на оказание услуг по пересылке можно ознакомиться<strong><a href="#"> здесь.</a></strong></div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="accardion-block accardion-block--white">
+                    <div class="accardion-block__head js-accardion-toggle">
+                      <div class="accardion-block__title">Самовывоз из магазинов
+                      </div>
+                      <div class="accardion-block__arrow">
+                        <svg class="icon icon_arrow-right-2">
+                          <use xlink:href="images/sprite-svg.svg#arrow-right-2"></use>
+                        </svg>
+                      </div>
+                    </div>
+                    <div class="accardion-block__body js-accardion-body"><p>Как только забронированный Вами товар поступит на наш склад, на Ваш электронный адрес или телефон будет выслано сообщение, что Ваш заказ отдан на комплектацию. Если у Вас возникли вопросы, пожалуйста, свяжитесь с нашими операторами. Call-центр: +7 (495) 734-80-88 время работы call центра: понедельник-пятница с 09:00 до 18:00, суббота, воскресение – выходные.<br> Как только будет скомплектован Ваш заказ, на ваш электронный адрес или телефон поступит новое сообщение.</p><p><strong>Товар на складе хранится 7 дней.</strong></p><p>Вам сообщат дату и выбранный вами пункт самовывоза, где можно забрать заказ. Самовывоз возможен из магазинов «Мир Увлечений»:</p><div class="row"><div class="col-4 col-sm-6 col-xs-12"><div class="main-section__adres"><div class="main-section__adres-metro main-section__adres-metro--orange"><svg><use xlink:href="images/sprite-svg.svg#metro"></svg><span>Садовый центр<br>в Медведково:</span></div><div class="main-section__adres-item"><strong>Адрес:</strong>  г. Москва, ул. Широкая, 27</div><div class="main-section__adres-item"><strong>Время работы:</strong> ежедневно с 09:00 до 21:00  без перерыва на обед, выходных и праздничных дней</div></div></div><div class="col-4 col-sm-6 col-xs-12"><div class="main-section__adres"><div class="main-section__adres-metro"><svg><use xlink:href="images/sprite-svg.svg#metro"></svg><span>Садовый центр<br> в Отрадном:</span></div><div class="main-section__adres-item"><strong>Адрес:</strong> г. Москва, ул. Санникова, 13</div><div class="main-section__adres-item"><strong>Время работы:</strong> ежедневно с 09:00 до 21:00 без перерыва на обед, выходных и праздничных дней</div></div></div></div>
+                    </div>
+                    <div class="accardion-block__head js-accardion-toggle">
+                      <div class="accardion-block__title">Доставка курьером по Москве и области
+                      </div>
+                      <div class="accardion-block__arrow">
+                        <svg class="icon icon_arrow-right-2">
+                          <use xlink:href="images/sprite-svg.svg#arrow-right-2"></use>
+                        </svg>
+                      </div>
+                    </div>
+                    <div class="accardion-block__body js-accardion-body"><p>Для уточнения даты доставки, вам придёт сообщение с просьбой связаться с нашими операторамипо телефону <strong>+7 (495) 734-80-88.</strong></p><p>Доставка заказов по каталогу "Товар в наличии" осуществляется в ближайшие 2-7 рабочих дня с 10 до 18 часов. Если Вы сделали заказ до 12-00, доставка может быть осуществлена на следующий день. </p><p>Бесплатно - доставка курьером по Москве и области до 10 км. и сборка при заказе на сумму от 100 000 руб. (с учетом скидок и бонусов) и 100 % предоплате по каталогам Осень, Луковичные и многолетники, Розы, Саженцы, Саженцы ЗКС.</p><p>&nbsp;</p><div class="table-responsive"><table class="table"><tr><th>Способ доставки </th><th>Сумма доставки</th><th>Сборка заказа</th><th>Итого сумма доставки</th></tr><tr><td><strong>Курьером по Москве в пределах МКАД</strong></td><td>320,00 руб.</td><td>100,00 руб.</td><td>390,00 руб.</td></tr><tr><td><strong>Курьером по Москве и области<br> до 10 км от МКАД</strong></td><td>600,00 руб.</td><td>100,00 руб.</td><td>670,00 руб.</td></tr><tr><td><strong>Курьером по Москве и области<br> до 25 км от МКАД</strong></td><td>880,00 руб.</td><td>100,00 руб.</td><td>950,00 руб.</td></tr><tr><td><strong>Курьером по Москве и области свыше<br> 25 км от МКАД</strong></td><td>880руб. + 25 руб. за каждый<br> километр свыше 25</td><td>100,00 руб.</td><td>950 руб. + 25 руб. за каждый<br> километр свыше 25</td></tr></table></div>
+                    </div>
+                  </div>
+                  <div class="accardion-block accardion-block--delivery1 accardion-block--delivery4 accardion-block--white">
+                    <div class="accardion-block__head js-accardion-toggle">
+                      <div class="accardion-block__title">Другие способы доставки
+                      </div>
+                      <div class="accardion-block__arrow">
+                        <svg class="icon icon_arrow-right-2">
+                          <use xlink:href="images/sprite-svg.svg#arrow-right-2"></use>
+                        </svg>
+                      </div>
+                    </div>
+                    <div class="accardion-block__body js-accardion-body">
+                      <div class="accardion-block__info">Благодаря альтернативной доставке клиентам из регионов России стал доступен для заказа более<br> широкий ассортимент товара (например штамбовые формы растений).</div>
+                      <div class="accardion-block__about">
+                        <div class="accardion-block__about-img"><img src="images/cdek.png" alt=""></div>
+                        <div class="accardion-block__about-info">
+                          <div class="accardion-block__about-text"> 
+                            <p><strong>Минимальная сумма заказа отсутствует.</strong></p>
+                            <p><strong>Бесплатно</strong> - доставка ТК СДЭК до пункта выдачи и сборка при заказе на сумму <strong>12 000 руб.</strong><br> (с учетом скидок и бонусов) и 100 % предоплате по каталогам Осень, Луковичные и многолетники,<br> Розы, Саженцы, Саженцы ЗКС.</p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="accardion-block__table">
+                         <div class="table-responsive"><table class="table"><tbody><tr><th>Каталог</th><th>Сумма доставки</th><th>Сборка заказа</th></tr><tr><td><strong>Альтернативная доставка ТК СДЭК</strong></td><td><a href="#">по тарифам ТК СДЭК</a></td><td>100,00 руб.</td></tr></tbody></table></div></div>
+                    </div>
+                  </div>
+            </div>
+            <div class="main-section__tab item-page tabs__body" id="tab-2">
+              <div class="main-section__banner">
+                    <div class="banner-block banner-block--delivery banner-block--payment">
+                      <div class="banner-block__img-block"> <img class="banner-block__img-1" src="images/banner-payment-1.svg" alt=""><img class="banner-block__img-2" src="images/banner-payment-2.svg" alt=""></div>
+                      <div class="banner-block__wrap">
+                        <div class="banner-block__title title-h3">Вы можете выбрать удобную для Вас форму оплаты!</div>
+                        <div class="banner-block__text">По вопросам оплаты обращайтесь по телефону +7 (495) 734-80-88 или пишите нам на почту info@bestgarden.ru</div>
+                      </div>
+                    </div>
+              </div>
+                  <div class="accardion-block accardion-block--payment accardion-block--white">
+                    <div class="accardion-block__head js-accardion-toggle">
+                      <div class="accardion-block__title">При доставке через ТК СДЭК
+                      </div>
+                      <div class="accardion-block__arrow">
+                        <svg class="icon icon_arrow-right-2">
+                          <use xlink:href="images/sprite-svg.svg#arrow-right-2"></use>
+                        </svg>
+                      </div>
+                    </div>
+                    <div class="accardion-block__body js-accardion-body">
+                      <div class="accardion-block__body-row row">
+                            <div class="payment-block accardion-block__item col-6 col-sm-12">
+                              <div class="payment-block__body">
+                                <div class="payment-block__icon">
+                                  <svg class="icon icon_clock">
+                                    <use xlink:href="images/sprite-svg.svg#clock"></use>
+                                  </svg>
+                                </div>
+                                <div class="payment-block__info">
+                                  <div class="payment-block__title"> Предварительные заказы:
+                                  </div>
+                                  <div class="payment-block__text">  <p><strong>100% предоплата:</strong> осуществляете 100% предоплату<br> товара.</p><p><strong>Частичная предоплата:</strong> осуществляете предоплату<br> к заказу по условиям каталога, оставшуюся часть<br> доплачиваете при получении заказ.</p>
+                                  </div>
+                                  <div class="payment-block__important">Важно! При 100% предоплате заказа, цены не изменятся
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="payment-block payment-block--nowrap-lg accardion-block__item col-6 col-sm-12">
+                              <div class="payment-block__body">
+                                <div class="payment-block__icon">
+                                  <svg class="icon icon_catalog-2">
+                                    <use xlink:href="images/sprite-svg.svg#catalog-2"></use>
+                                  </svg>
+                                </div>
+                                <div class="payment-block__info">
+                                  <div class="payment-block__title"> Заказы по каталогу "Сегодня в продаже":
+                                  </div>
+                                  <div class="payment-block__text"> <strong>Оплата при получении заказа:</strong> оплата товара<br> производится наличными или банковской картой<br> при получении заказа через ТК СДЭК.
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="accardion-block accardion-block--payment accardion-block--white">
+                    <div class="accardion-block__head js-accardion-toggle">
+                      <div class="accardion-block__title">При доставке курьером
+                      </div>
+                      <div class="accardion-block__arrow">
+                        <svg class="icon icon_arrow-right-2">
+                          <use xlink:href="images/sprite-svg.svg#arrow-right-2"></use>
+                        </svg>
+                      </div>
+                    </div>
+                    <div class="accardion-block__body js-accardion-body">
+                      <div class="accardion-block__body-row row">
+                            <div class="payment-block accardion-block__item col-6 col-sm-12">
+                              <div class="payment-block__body">
+                                <div class="payment-block__icon">
+                                  <svg class="icon icon_clock">
+                                    <use xlink:href="images/sprite-svg.svg#clock"></use>
+                                  </svg>
+                                </div>
+                                <div class="payment-block__info">
+                                  <div class="payment-block__title"> Предварительные заказы:
+                                  </div>
+                                  <div class="payment-block__text">  <p><strong>100% предоплата:</strong> осуществляете 100% предоплату<br> товара.</p><p><strong>Частичная предоплата:</strong> осуществляете предоплату<br> к заказу по условиям каталога, оставшуюся часть<br> доплачиваете при получении заказ.</p>
+                                  </div>
+                                  <div class="payment-block__important">Важно! При 100% предоплате заказа, цены не изменятся
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="accardion-block accardion-block--payment accardion-block--white">
+                    <div class="accardion-block__head js-accardion-toggle">
+                      <div class="accardion-block__title">При доставке почтовыми отправлениями
+                      </div>
+                      <div class="accardion-block__arrow">
+                        <svg class="icon icon_arrow-right-2">
+                          <use xlink:href="images/sprite-svg.svg#arrow-right-2"></use>
+                        </svg>
+                      </div>
+                    </div>
+                    <div class="accardion-block__body js-accardion-body"> 
+                      <div class="accardion-block__body-row row">
+                            <div class="payment-block payment-block--right accardion-block__item col-12">
+                              <div class="payment-block__body">
+                                <div class="payment-block__icon">
+                                  <svg class="icon icon_clock">
+                                    <use xlink:href="images/sprite-svg.svg#clock"></use>
+                                  </svg>
+                                </div>
+                                <div class="payment-block__info-2">
+                                  <div class="payment-block__title"> Предварительные заказы:
+                                  </div>
+                                  <div class="payment-block__text">  <p><strong>100% предоплата:</strong> осуществляете 100% предоплату<br> товара.</p><p><strong>Частичная предоплата:</strong> осуществляете предоплату<br> к заказу по условиям каталога, оставшуюся часть<br> доплачиваете при получении заказ.</p>
+                                  </div>
+                                </div>
+                                <div class="payment-block__info">
+                                  <div class="payment-block__important">Важно! При 100% предоплате<br> заказа, цены не изменятся
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="accardion-block accardion-block--payment accardion-block--payment4 accardion-block--white">
+                    <div class="accardion-block__head js-accardion-toggle">
+                      <div class="accardion-block__title">Наличными или картой при получении в магазинах
+                      </div>
+                      <div class="accardion-block__arrow">
+                        <svg class="icon icon_arrow-right-2">
+                          <use xlink:href="images/sprite-svg.svg#arrow-right-2"></use>
+                        </svg>
+                      </div>
+                    </div>
+                    <div class="accardion-block__body js-accardion-body">
+                      <div class="accardion-block__body-row row">
+                            <div class="payment-block payment-block--one accardion-block__item col-6 col-sm-12">
+                              <div class="payment-block__body">
+                                <div class="payment-block__icon">
+                                  <svg class="icon icon_store">
+                                    <use xlink:href="images/sprite-svg.svg#store"></use>
+                                  </svg>
+                                </div>
+                                <div class="payment-block__info">
+                                  <div class="payment-block__title"> Оплата в магазинах “Bestgarden”:
+                                  </div>
+                                  <div class="payment-block__text"> Для оплаты наличными в магазине, вам надо распечатать<br> заказ или переписать номер вашего заказа и оплатить<br> в любом магазине «Bestgarden».<br><br>Также вы можете сделать заказ, приехав непосредственно<br> в наши магазины и сразу их оплатить.
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="accardion-block accardion-block--payment accardion-block--payment5 accardion-block--white">
+                    <div class="accardion-block__head js-accardion-toggle">
+                      <div class="accardion-block__title">Через банк по реквизитам (скачать квитанцию)
+                      </div>
+                      <div class="accardion-block__arrow">
+                        <svg class="icon icon_arrow-right-2">
+                          <use xlink:href="images/sprite-svg.svg#arrow-right-2"></use>
+                        </svg>
+                      </div>
+                    </div>
+                    <div class="accardion-block__body js-accardion-body">
+                      <div class="accardion-block__body-row row">
+                            <div class="payment-block payment-block--nowrap-lg accardion-block__item col-6 col-sm-12">
+                              <div class="payment-block__body">
+                                <div class="payment-block__icon">
+                                  <svg class="icon icon_bank">
+                                    <use xlink:href="images/sprite-svg.svg#bank"></use>
+                                  </svg>
+                                </div>
+                                <div class="payment-block__info">
+                                  <div class="payment-block__title"> Вы можете осуществить оплату через банк<br> по следующим реквизитам:
+                                  </div>
+                                  <div class="payment-block__text"> ООО "БЕСТГАРДЕН"<br>ИНН: 9715322394<br>КПП: 771501001<br>Расчетный счет: 40702810038000238634<br>Банк: ПАО СБЕРБАНК г. МОСКВА<br>БИК: 044525225<br>Корр. счет: 30101810400000000225
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="payment-block payment-block--right2 accardion-block__item col-6 col-sm-12">
+                              <div class="payment-block__body">
+                                <div class="payment-block__icon">
+                                  <svg class="icon icon_invoice">
+                                    <use xlink:href="images/sprite-svg.svg#invoice"></use>
+                                  </svg>
+                                </div>
+                                <div class="payment-block__info">
+                                  <div class="payment-block__title"> Скачать квитанцию:
+                                  </div>
+                                  <div class="payment-block__text"> Квитанцию для оплаты через «Банк» необходимо<br> <strong><a href="#">скачать</a></strong> и распечатать для оплаты.
+                                  </div>
+                                </div>
+                                <div class="payment-block__important">Для просмотра и печати квитанций вам потребуется<br> установить себе на компьютер программу <strong>Adobe Reader.</strong>
+                                </div>
+                              </div>
+                            </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="accardion-block accardion-block--payment accardion-block--payment4 accardion-block--white">
+                    <div class="accardion-block__head js-accardion-toggle">
+                      <div class="accardion-block__title">Оплата через сервис ROBOKASSA
+                      </div>
+                      <div class="accardion-block__arrow">
+                        <svg class="icon icon_arrow-right-2">
+                          <use xlink:href="images/sprite-svg.svg#arrow-right-2"></use>
+                        </svg>
+                      </div>
+                    </div>
+                    <div class="accardion-block__body js-accardion-body">
+                      <div class="accardion-block__body-row row">
+                            <div class="payment-block payment-block--one payment-block--list accardion-block__item col-10 col-sm-12">
+                              <div class="payment-block__body">
+                                <div class="payment-block__icon">
+                                  <svg class="icon icon_robo-kassa">
+                                    <use xlink:href="images/sprite-svg.svg#robo-kassa"></use>
+                                  </svg>
+                                </div>
+                                <div class="payment-block__info">
+                                  <div class="payment-block__title"> Робокасса - это сервис, который позволяет оперативно оплачивать товары и услуги одним<br> из множества удобных способов:
+                                  </div>
+                                  <div class="payment-block__text"> <ul><li>с помощью электронной валюты (Яндекс.Деньги, WebMoney, EasyPay, Единый Кошелек и др.)</li><li>с помощью банковских карт (Visa, MasterCard)</li><li>через терминалы оплаты (QIWI, Элекснет, Новоплат, Уникасса и др.)</li><li>через сотовый телефон с помощью смс-сообщений</li><li>через систему денежных переводов Contact</li><li>с помощью специального приложения для смартфона</li></ul>
+                                  </div>
+                                  <div class="payment-block__info"> Чтобы воспользоваться одним из перечисленных методов оплаты, выберите пункт<br> <strong>«Электронные платежи»<strong> на странице оформления заказа в нашем интернет-магазине.
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="accardion-block accardion-block--payment accardion-block--white">
+                    <div class="accardion-block__head js-accardion-toggle">
+                      <div class="accardion-block__title">Квитанции для оплаты товаров через банк
+                      </div>
+                      <div class="accardion-block__arrow">
+                        <svg class="icon icon_arrow-right-2">
+                          <use xlink:href="images/sprite-svg.svg#arrow-right-2"></use>
+                        </svg>
+                      </div>
+                    </div>
+                    <div class="accardion-block__body js-accardion-body">
+                      <div class="accardion-block__body-row row">
+                            <div class="payment-block payment-block--right2 accardion-block__item col-6 col-sm-12">
+                              <div class="payment-block__body">
+                                <div class="payment-block__icon">
+                                  <svg class="icon icon_invoice">
+                                    <use xlink:href="images/sprite-svg.svg#invoice"></use>
+                                  </svg>
+                                </div>
+                                <div class="payment-block__info">
+                                  <div class="payment-block__title"> Скачать квитанцию:
+                                  </div>
+                                  <div class="payment-block__text"> Квитанцию для оплаты через «Банк» необходимо<br> <strong><a href="#">скачать</a></strong> и распечатать для оплаты.
+                                  </div>
+                                </div>
+                                <div class="payment-block__important">Для просмотра и печати квитанций вам потребуется<br> установить себе на компьютер программу <strong>Adobe Reader.</strong>
+                                </div>
+                              </div>
+                            </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="accardion-block accardion-block--payment accardion-block--white">
+                    <div class="accardion-block__head js-accardion-toggle">
+                      <div class="accardion-block__title">Возврат денежных средств
+                      </div>
+                      <div class="accardion-block__arrow">
+                        <svg class="icon icon_arrow-right-2">
+                          <use xlink:href="images/sprite-svg.svg#arrow-right-2"></use>
+                        </svg>
+                      </div>
+                    </div>
+                    <div class="accardion-block__body js-accardion-body">
+                      <div class="accardion-block__body-row row">
+                            <div class="payment-block payment-block--nowrap-lg accardion-block__item col-11 col-sm-12">
+                              <div class="payment-block__body">
+                                <div class="payment-block__icon">
+                                  <svg class="icon icon_user">
+                                    <use xlink:href="images/sprite-svg.svg#user"></use>
+                                  </svg>
+                                </div>
+                                <div class="payment-block__info">
+                                  <div class="payment-block__title"> В личном кабинете:
+                                  </div>
+                                  <div class="payment-block__text"> Вы можете оформить возврат через специальную форму в <strong>личном кабинете</strong>, указав причину возврата и способ возврата товара и средств.
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="payment-block payment-block--nowrap-lg accardion-block__item col-11 col-sm-12">
+                              <div class="payment-block__body">
+                                <div class="payment-block__icon">
+                                  <svg class="icon icon_blank">
+                                    <use xlink:href="images/sprite-svg.svg#blank"></use>
+                                  </svg>
+                                </div>
+                                <div class="payment-block__info">
+                                  <div class="payment-block__title"> По заявлению:
+                                  </div>
+                                  <div class="payment-block__text"> Вы можете оформить возврат почтовым переводом по заявлению, написанному в свободной форме, с указанием номера заказа, причиной возврата, ФИО получателя платежа, адреса на который должен быть осуществлен перевод. Заявления, Вы можете прислать по электронной почте на адрес info@bestgarden.ru, по почте письмом на адрес 127641, г. Москва, ул. Санникова, д.13, так же передать курьеру или в любой розничный магазин сети "Мир Увлечений". 
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                        <div class="accardion-block__info col-10 col-sm-12">Перевод на банковскую карту осуществляется при условии, что Вы производили оплату с данной карты, только по оригиналу заявления установленного образца, заполненного и подписанного лично покупателем или в личном кабинете.</div>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+          </div>
+        </div>
+        <footer class="footer">
+          <div class="footer__container container">
+            <div class="footer__row row footer__row--stretch">
+              <div class="footer__logo-col col-auto col-sm-4 col-xs-12">
+                <div class="footer__logo">
+                  <svg class="icon icon_logo d-block">
+                    <use xlink:href="images/sprite-svg.svg#logo"></use>
+                  </svg>
+                </div>
+                <div class="footer__slogan-age">20 лет на рынке товаров для сада</div>
+                <div class="footer__slogan">Интернет-магазин ООО «БЕСТГАРДЕН»</div>
+                <div class="footer__adres">Юридический адрес: 127224, Москва,<br> ул. Широкая, дом 27, пом. I, комн. 21.<br> ОГРН: 1187746815871</div>
+                <div class="footer__copyright">2021, Все права защищены<br> <a href="#">Политика обработки<br> персональных данных</a></div>
+              </div>
+              <div class="footer__menu col-4 col-sm-4 col-xs-12">
+                <div class="footer__title">Каталоги </div>
+                <div class="footer__menu-items row">
+                  <div class="footer__menu-col col-6 col-sm-12">
+                    <div class="footer__menu-item"><a href="#">Саженцы </a></div>
+                    <div class="footer__menu-item"><a href="#">Саженцы ЗКС</a></div>
+                    <div class="footer__menu-item"><a href="#">Луковичные<br> и многолетники 2021</a></div>
+                    <div class="footer__menu-item"><a href="#">Луковичные<br> и многолетники Россия</a></div>
+                    <div class="footer__menu-item"><a href="#">Комнатные растения</a></div>
+                    <div class="footer__menu-item"><a href="#">Лук-севок</a></div>
+                  </div>
+                  <div class="footer__menu-col col-6 col-sm-12">
+                    <div class="footer__menu-item"><a href="#">Рассада</a></div>
+                    <div class="footer__menu-item"><a href="#">Семена</a></div>
+                    <div class="footer__menu-item"><a href="#">Розы</a></div>
+                    <div class="footer__menu-item"><a href="#">Товары для дома,<br> сада и огорода</a></div>
+                    <div class="footer__menu-item"><a href="#">Сопутствующие товары</a></div>
+                  </div>
+                </div>
+              </div>
+              <div class="footer__buyers col-auto d-none_sm">
+                <div class="footer__title">Покупателям</div>
+                <div class="footer__menu-item"><a href="#">Предварительный заказ</a></div>
+                <div class="footer__menu-item"><a href="#">Акции</a></div>
+                <div class="footer__menu-item"><a href="#">Доставка и оплата</a></div>
+                <div class="footer__menu-item"><a href="#">О нас</a></div>
+                <div class="footer__menu-item"><a href="#">Новости</a></div>
+                <div class="footer__menu-item"><a href="#">Задать вопрос	</a></div>
+              </div>
+              <div class="footer__contacts col col-sm-4 col-xs-12">
+                <div class="footer__contacts-row row">
+                  <div class="footer__contacts-left col-9 col-sm-12">
+                    <div class="footer__title">контакты</div>
+                    <div class="footer__contacts-item"><strong>Садовый центр в Медведково:</strong><br> г. Москва, ул. Широкая, 27
+                      <div class="footer__contacts-time">ежедневно с 09:00 до 21:00</div>
+                    </div>
+                    <div class="footer__contacts-item"><strong>Садовый центр в Отрадном:</strong><br>г. Москва, ул. Санникова, 13
+                      <div class="footer__contacts-time">ежедневно с 09:00 до 21:00</div>
+                    </div>
+                    <div class="footer__contacts-item"><strong>Колл-центр:</strong><br>8 (495) 212-85-06	</div>
+                  </div>
+                  <div class="footer__contacts-soc col-3 col-sm-12">
+                                    <div class="soc-list footer__soc soc-list--vertical">
+                                      <div class="soc-list__item"><a href="#">
+                                          <svg class="icon icon_vk">
+                                            <use xlink:href="images/sprite-svg.svg#vk"></use>
+                                          </svg></a></div>
+                                      <div class="soc-list__item"><a href="#">
+                                          <svg class="icon icon_facebook">
+                                            <use xlink:href="images/sprite-svg.svg#facebook"></use>
+                                          </svg></a></div>
+                                      <div class="soc-list__item"><a href="#">
+                                          <svg class="icon icon_instagram">
+                                            <use xlink:href="images/sprite-svg.svg#instagram"></use>
+                                          </svg></a></div>
+                                      <div class="soc-list__item"><a href="#">
+                                          <svg class="icon icon_ok">
+                                            <use xlink:href="images/sprite-svg.svg#ok"></use>
+                                          </svg></a></div>
+                                    </div>
+                  </div>
+                  <div class="footer__contacts-left-2 col-auto col-md-12"> 
+                    <div class="footer__contacts-link"><a class="js-popup-show" href="#popup-contact-form">Форма обратной связи</a></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </footer>
+            <div class="popup popup--registration" id="edit-delivery-adres">
+              <div class="popup__overflow js-popup-hide"></div>
+              <div class="popup__wrapper"><a class="popup__close js-popup-hide">
+                  <svg class="icon icon_close">
+                    <use xlink:href="images/sprite-svg.svg#close"></use>
+                  </svg></a>
+                <div class="popup__title">редактировать адрес доставки</div>
+                <form class="popup__form" action="">
+                  <div class="form-group form-group--sm popup__input">
+                    <div class="form-group__label">Город</div>
+                    <input class="form-control form-control--border js-required" type="text" placeholder="" value="Новосибирск" required>
+                  </div>
+                  <div class="form-group form-group--sm popup__input">
+                    <div class="form-group__label">Улица</div>
+                    <input class="form-control form-control--border js-required" type="text" placeholder="" value="Протозанова" required>
+                  </div>
+                  <div class="popup__row row"> 
+                    <div class="popup__col popup__input col-6 col-xs-12">
+                      <div class="form-group form-group--sm">
+                        <div class="form-group__label">Дом</div>
+                        <input class="form-control form-control--border js-required" type="text" placeholder="" required>
+                      </div>
+                    </div>
+                    <div class="popup__col popup__input col-6 col-xs-12">
+                      <div class="form-group form-group--sm">
+                        <div class="form-group__label">Корпус/строение</div>
+                        <input class="form-control form-control--border js-required" type="text" placeholder="">
+                      </div>
+                    </div>
+                  </div>
+                  <div class="form-group form-group--sm popup__input">
+                    <div class="form-group__label">Квартира/офис</div>
+                    <input class="form-control form-control--border js-required" type="text" placeholder="" required>
+                  </div>
+                  <div class="popup__buttons row"> 
+                    <div class="popup__col col">
+                      <button class="btn btn--block js-submit">Сохранить</button>
+                    </div>
+                    <div class="popup__col col"><a class="btn btn--border btn--block js-popup-hide" href="#">Отмена</a></div>
+                  </div>
+                </form>
+              </div>
+            </div>
+            <div class="popup popup--finish" id="final-return-popup">
+              <div class="popup__overflow js-popup-hide"></div>
+              <div class="popup__wrapper"><a class="popup__close js-popup-hide">
+                  <svg class="icon icon_close">
+                    <use xlink:href="images/sprite-svg.svg#close"></use>
+                  </svg></a>
+                <div class="popup__img">
+                  <picture>
+                    <source class="lazy" data-srcset="images/finish-popup-img-2.webp" type="image/webp"/><img class="lazy" data-src="images/finish-popup-img-2.png" alt=""/>
+                  </picture>
+                </div>
+                <div class="popup__title">вы оформили возврат средств</div>
+                <div class="popup__desc">Наши менеджеры свяжутся с вами для уточнения информации.  Состояние заказов вы можете отслеживать в <a href="#">личном кабинете</a>.</div>
+                <div class="popup__buttons"><a class="btn btn--border" href="#">Вернуться к списку заказов</a><a class="btn" href="#">На главную</a></div>
+              </div>
+            </div>
+            <div class="popup popup--contact-form" id="popup-contact-form" attributes>
+              <div class="popup__overflow js-popup-hide"></div>
+              <div class="popup__wrapper"><a class="popup__close js-popup-hide">
+                  <svg class="icon icon_close">
+                    <use xlink:href="images/sprite-svg.svg#close"></use>
+                  </svg></a>
+                    <div class="form-block form-block--popup">
+                      <div class="form-block__title title-h3">Есть вопрос? Мы с радостью на него ответим!</div>
+                      <div class="form-block__desc">Контакты техподдержки: +7 (495) 734-80-88</div>
+                      <div class="form-block__desc-2">Перед тем, как задать вопрос, ознакомьтесь, пожалуйста, с разделами <a href="#"> Доставка и оплата</a> и <a href="#">Доставка и оплата.</a></div>
+                      <form action=""> 
+                        <div class="form-block__row row">
+                          <div class="form-block__input col-6 col-xs-12">
+                            <div class="form-group">
+                              <div class="form-group__label">Введите ваше имя</div>
+                              <input class="form-control js-required" type="text" placeholder="" required>
+                            </div>
+                          </div>
+                          <div class="form-block__input col-6 col-xs-12">
+                            <div class="form-group">
+                              <div class="form-group__label">Введите вашу почту</div>
+                              <input class="form-control js-required" type="text" placeholder="" required>
+                            </div>
+                          </div>
+                          <div class="form-block__input col-12">
+                            <textarea class="form-control js-required" name="" cols="30" rows="10" placeholder="Введите ваш вопрос"></textarea>
+                          </div>
+                          <div class="form-block__file col-4 col-xs-12">
+                                <div class="upload-block upload-block--inline js-files-form">
+                                  <input class="js-file-input" type="file" name="files[]" id="upload-file__input_1" accept=".jpg, .jpeg, .png, .svg" multiple>
+                                  <svg class="icon icon_file-add upload-block__icon">
+                                    <use xlink:href="images/sprite-svg.svg#file-add"></use>
+                                  </svg>
+                                  <div class="upload-block__title">Прикрепить файл</div>
+                                </div>
+                          </div>
+                          <div class="form-block__police col-8 col-xs-12">
+                            <div class="checkbox checkbox--blue checkbox--fs-14">
+                              <input class="js-required" id="police-12" type="checkbox" name="police" value="1" required>
+                              <label for="police-12">Я принимаю <a href="#"><strong>Пользовательское соглашение</strong></a> и даю согласие обработку, хранение и передачу указанных мной персональных данных согласно <a href="#"><strong>Политике конфиденциальности</strong></a></label>
+                            </div>
+                          </div>
+                          <div class="form-block__buttons col-12">
+                            <button class="btn js-submit" type="submit">Отправить вопрос</button>
+                          </div>
+                        </div>
+                      </form>
+                    </div>
+              </div>
+            </div>
+            <div class="popup popup--status" id="popup-status" attributes>
+              <div class="popup__overflow js-popup-hide"></div>
+              <div class="popup__wrapper"><a class="popup__close js-popup-hide">
+                  <svg class="icon icon_close">
+                    <use xlink:href="images/sprite-svg.svg#close"></use>
+                  </svg></a>
+                <div class="popup__title">статус заказа</div>
+                <div class="popup__desc">Введите номер заказа</div>
+                <form class="popup__form" action=""> 
+                  <div class="form-group form-group--sm popup__input">
+                    <div class="form-group__label">Номер заказа</div>
+                    <input class="form-control form-control--border js-required" type="text" required>
+                  </div>
+                  <div class="popup__buttons">
+                    <button class="btn btn--block js-submit" data-href="#popup-status-2">Найти заказ</button>
+                  </div>
+                </form>
+              </div>
+            </div>
+            <div class="popup popup--status-result" id="popup-status-2" attributes>
+              <div class="popup__overflow js-popup-hide"></div>
+              <div class="popup__wrapper"><a class="popup__close js-popup-hide">
+                  <svg class="icon icon_close">
+                    <use xlink:href="images/sprite-svg.svg#close"></use>
+                  </svg></a>
+                <div class="popup__title">статус заказа</div>
+                <div class="popup__well">
+                  <div class="popup__number">Заказ <strong>56452356485669</strong></div>
+                  <div class="popup__status bullet bullet--lg status-2">
+                    <div class="bullet__icon"></div>
+                    <div class="bullet__text">Ожидают проверки</div>
+                  </div>
+                </div>
+                <div class="popup__date">Информация обновлена 15.02.2021</div>
+                <div class="popup__desc">Подробную информацию о заказе вы можете узнать<br> в <a href="#" class="color-blue-form">личном кабинете</a> или по телефону +7 (495) 734-80-88 </div>
+                <div class="popup__buttons"><a class="btn btn--block js-popup-show" href="#popup-status">Новый поиск</a></div>
+              </div>
+            </div>
+            <div class="popup popup--one-click" id="popup-one-click">
+              <div class="popup__overflow js-popup-hide"></div>
+              <div class="popup__wrapper"><a class="popup__close js-popup-hide">
+                  <svg class="icon icon_close">
+                    <use xlink:href="images/sprite-svg.svg#close"></use>
+                  </svg></a>
+                <div class="popup__title">быстрое оформление заказа</div>
+                <div class="popup__desc">Если вы зарегистрированы в системе, <a class="color-link" href="#">войдите в личный кабинет</a>, чтобы отслеживать статус заказа и получать персональные скидки. Если вы хотите оформить заказ без регистрации, заполните форму ниже.</div>
+                <form class="popup__form" action="">
+                  <div class="popup__input">
+                    <div class="popup__input-label">Телефон для связи:</div>
+                    <div class="form-group form-group--sm">
+                      <div class="form-group__label">Введите телефон</div>
+                      <input class="form-control form-control--border js-required" type="tel" placeholder="" required>
+                    </div>
+                  </div>
+                  <div class="popup__checkboxs">
+                    <div class="checkbox">
+                      <input type="checkbox" name="police1" id="police1" value="1">
+                      <label for="police1">Согласен(а) с условиями <a href="#">доставки и оплаты заказа</a> </label>
+                    </div>
+                    <div class="checkbox">
+                      <input type="checkbox" name="police2" id="police2" value="1">
+                      <label for="police2">Согласен(а) с условиями <a href="#">политики конфиденциальности и обработки персональных данных</a></label>
+                    </div>
+                  </div>
+                  <div class="popup__buttons">
+                    <button class="btn btn--block js-submit" data-href="#popup-finish"> Отправить заказ</button>
+                  </div>
+                </form>
+              </div>
+            </div>
+            <div class="popup popup--finish" id="popup-finish">
+              <div class="popup__overflow js-popup-hide"></div>
+              <div class="popup__wrapper"><a class="popup__close js-popup-hide">
+                  <svg class="icon icon_close">
+                    <use xlink:href="images/sprite-svg.svg#close"></use>
+                  </svg></a>
+                <div class="popup__img">
+                  <picture>
+                    <source class="lazy" data-srcset="images/finish-popup-img.webp" type="image/webp"/><img class="lazy" data-src="images/finish-popup-img.png" alt=""/>
+                  </picture>
+                </div>
+                <div class="popup__title">Спасибо! заказ оформлен</div>
+                <div class="popup__desc">Наши менеджеры скоро свяжутся с вами<br> для уточнения заказа</div>
+                <div class="popup__buttons"><a class="btn btn--border" href="#">Вернуться к каталогу</a></div>
+              </div>
+            </div>
+            <div class="popup popup--login popup--terms-order" id="popup-login" attributes>
+              <div class="popup__overflow js-popup-hide"></div>
+              <div class="popup__wrapper"><a class="popup__close js-popup-hide">
+                  <svg class="icon icon_close">
+                    <use xlink:href="images/sprite-svg.svg#close"></use>
+                  </svg></a>
+                <div class="popup__title">вход в личный кабинет</div>
+                <form class="popup__form" action=""> 
+                  <div class="form-group form-group--sm popup__input">
+                    <div class="form-group__label">Введите телефон</div>
+                    <input class="form-control form-control--border js-required" type="tel" placeholder="" required>
+                  </div>
+                  <div class="form-group form-group--sm popup__input">
+                    <div class="form-group__label">Введите пароль</div>
+                    <input class="form-control form-control--border js-required" type="password" placeholder="" required>
+                  </div>
+                  <div class="popup__buttons">
+                    <button class="btn btn--block js-submit"> Войти  в личный кабинет</button>
+                  </div>
+                </form>
+                <div class="popup__links"><a class="btn btn--icon btn--link btn--blue-dark js-popup-show" href="#popup-registration-1">
+                    <svg class="icon icon_registration">
+                      <use xlink:href="images/sprite-svg.svg#registration"></use>
+                    </svg><span>Регистрация</span></a></div>
+              </div>
+            </div>
+            <div class="popup popup--registration" id="popup-registration-1" attributes>
+              <div class="popup__overflow js-popup-hide"></div>
+              <div class="popup__wrapper"><a class="popup__close js-popup-hide">
+                  <svg class="icon icon_close">
+                    <use xlink:href="images/sprite-svg.svg#close"></use>
+                  </svg></a>
+                <div class="popup__title">регистрация в личном кабинете</div>
+                <div class="popup__desc">Вы сможете быстро оформлять и отслеживать заказы, получать скидки постоянного покупателя</div>
+                <form class="popup__form" action=""> 
+                  <div class="form-group form-group--sm popup__input">
+                    <div class="form-group__label">Введите телефон</div>
+                    <input class="form-control form-control--border js-required" type="tel" placeholder="" required>
+                  </div>
+                  <div class="popup__buttons">
+                    <button class="btn btn--block js-submit" data-href="#popup-registration-2">Отправить код в SMS</button>
+                  </div>
+                  <div class="popup__links"><a href="#">У меня уже есть аккаунт</a></div>
+                </form>
+              </div>
+            </div>
+            <div class="popup popup--registration" id="popup-registration-2" attributes>
+              <div class="popup__overflow js-popup-hide"></div>
+              <div class="popup__wrapper"><a class="popup__close js-popup-hide">
+                  <svg class="icon icon_close">
+                    <use xlink:href="images/sprite-svg.svg#close"></use>
+                  </svg></a>
+                <div class="popup__title">регистрация в личном кабинете</div>
+                <div class="popup__desc">На номер <strong>+7-952-364-78-50</strong> отправлено<br> SMS-сообщение с паролем</div>
+                <form class="popup__form" action=""> 
+                  <div class="form-group form-group--sm popup__input">
+                    <div class="form-group__label">Введите код из SMS</div>
+                    <input class="form-control form-control--border js-required js-mask-sms" type="text" placeholder="" required>
+                  </div>
+                  <div class="popup__buttons">
+                    <button class="btn btn--block js-submit" data-href="#popup-registration-3">Далее</button>
+                  </div>
+                  <div class="popup__links"><a href="#">Отправить код повторно</a></div>
+                </form>
+              </div>
+            </div>
+            <div class="popup popup--registration" id="popup-registration-3" attributes>
+              <div class="popup__overflow js-popup-hide"></div>
+              <div class="popup__wrapper"><a class="popup__close js-popup-hide">
+                  <svg class="icon icon_close">
+                    <use xlink:href="images/sprite-svg.svg#close"></use>
+                  </svg></a>
+                <div class="popup__title">регистрация в личном кабинете</div>
+                <div class="popup__desc">Для продолжения регистрации придумайте<br> пароль для входа в личный кабинет</div>
+                <form class="popup__form" action=""> 
+                  <div class="form-group form-group--sm popup__input">
+                    <div class="form-group__label">Придумайте пароль для входа</div>
+                    <input class="form-control form-control--border js-required js-pass1" type="password" placeholder="" required>
+                  </div>
+                  <div class="form-group form-group--sm popup__input">
+                    <div class="form-group__label">Повторите пароль</div>
+                    <input class="form-control form-control--border js-required js-pass2" type="password" placeholder="" required>
+                  </div>
+                  <div class="popup__group">
+                    <div class="popup__group-title">Контактные данные</div>
+                    <div class="form-group form-group--sm popup__input">
+                      <div class="form-group__label">Имя Фамилия Отчество</div>
+                      <input class="form-control form-control--border js-required" type="text" placeholder="" required>
+                    </div>
+                    <div class="form-group form-group--sm popup__input">
+                      <div class="form-group__label">E-mail/Электронный адрес</div>
+                      <input class="form-control form-control--border js-required" type="email" placeholder="" required>
+                    </div>
+                  </div>
+                  <div class="popup__buttons">
+                    <button class="btn btn--block js-submit" data-href="#popup-registration-4">Зарегистрироваться</button>
+                  </div>
+                </form>
+              </div>
+            </div>
+    <script type="text/javascript" src="js/script.js"></script>
+  </body>
+</html>
